@@ -10,7 +10,7 @@ for (i = 0; i < (gridNum ** 2); i++) {
 }
 
 function changeColor(event) {
-    event.target.style.backgroundColor = 'gray';
+    event.target.style.opacity -= '-0.2';
 }
 
 container.addEventListener('mouseover', changeColor, false);
